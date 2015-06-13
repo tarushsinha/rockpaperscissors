@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Rock_Paper_Scissors_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label alignment="center" text="Score: 0 - 0" minimumScaleFactor="0.59999999999999998" id="bLo-rt-ojl">
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                        </label>
+                        <label width="135.5" height="31.5" alignment="left" textAlignment="center" minimumScaleFactor="0.29999999999999999" id="poj-K3-XBh">
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                        <imageView width="56" height="51" alignment="center" verticalAlignment="center" image="earts.png" contentMode="scaleAspectFill" id="tTd-CK-iNj"/>
+                        <group width="1" alignment="left" verticalAlignment="bottom" id="2Lb-4m-wSK">
+                            <items>
+                                <button width="44" height="38" alignment="left" backgroundImage="Rock.png" id="fFn-vE-2Zx">
+                                    <fontDescription key="font" type="system" pointSize="11"/>
+                                    <connections>
+                                        <action selector="rockAction" destination="AgC-eL-Hgc" id="bFk-ed-dXQ"/>
+                                    </connections>
+                                </button>
+                                <button width="0.33000000000000002" height="37.5" alignment="left" backgroundImage="Scissors.png" id="8pF-V9-IK9">
+                                    <fontDescription key="font" type="system" pointSize="6"/>
+                                    <connections>
+                                        <action selector="scissorAction" destination="AgC-eL-Hgc" id="rqI-ol-ny4"/>
+                                    </connections>
+                                </button>
+                                <button width="46" height="38" alignment="left" backgroundImage="Paper.png" id="ool-R9-6df">
+                                    <connections>
+                                        <action selector="paperAction" destination="AgC-eL-Hgc" id="QCM-Uy-XNs"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="display" destination="poj-K3-XBh" id="LQA-Fw-Aka"/>
+                        <outlet property="paper" destination="ool-R9-6df" id="Wtr-Gh-ekL"/>
+                        <outlet property="rock" destination="fFn-vE-2Zx" id="ugd-O5-4Zu"/>
+                        <outlet property="scissors" destination="8pF-V9-IK9" id="xHZ-wR-356"/>
+                        <outlet property="score" destination="bLo-rt-ojl" id="Sbj-xy-pKJ"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="235" y="244"/>
+        </scene>
+        <!--Glance Interface Controller-->
+        <scene sceneID="BOz-TT-tkC">
+            <objects>
+                <glanceController spacing="0.0" id="0uZ-2p-rRc" customClass="GlanceController" customModule="Rock_Paper_Scissors_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group alignment="left" id="t8f-Gd-c4y"/>
+                        <group alignment="left" id="uCw-4Q-Ouw"/>
+                    </items>
+                    <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="14"/>
+                </glanceController>
+            </objects>
+            <point key="canvasLocation" x="235" y="672"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="XkS-y5-khE"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="XkS-y5-khE" id="49B-RR-99y"/>
+                        <segue destination="gdX-wl-uQE" kind="relationship" relationship="dynamicNotificationInterface" id="fKh-qV-3T2"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="235" y="1001"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="KIl-fV-djm">
+            <objects>
+                <controller id="gdX-wl-uQE" customClass="NotificationController" customModule="Rock_Paper_Scissors_WatchKit_App" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="553" y="1001"/>
+        </scene>
+    </scenes>
+</document>

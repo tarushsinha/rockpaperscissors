@@ -13,6 +13,38 @@
 		72C35C881B2CC23400E42913 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72C35C871B2CC23400E42913 /* Images.xcassets */; };
 		72C35C8B1B2CC23400E42913 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72C35C891B2CC23400E42913 /* LaunchScreen.xib */; };
 		72C35C971B2CC23400E42913 /* Rock_Paper_ScissorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C35C961B2CC23400E42913 /* Rock_Paper_ScissorsTests.swift */; };
+		72C35CAA1B2CC24500E42913 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C35CA91B2CC24500E42913 /* InterfaceController.swift */; };
+		72C35CAC1B2CC24500E42913 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C35CAB1B2CC24500E42913 /* NotificationController.swift */; };
+		72C35CAE1B2CC24500E42913 /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C35CAD1B2CC24500E42913 /* GlanceController.swift */; };
+		72C35CB01B2CC24500E42913 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72C35CAF1B2CC24500E42913 /* Images.xcassets */; };
+		72C35CB41B2CC24500E42913 /* Rock Paper Scissors WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 72C35CB31B2CC24500E42913 /* Rock Paper Scissors WatchKit App.app */; };
+		72C35CBC1B2CC24500E42913 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72C35CBA1B2CC24500E42913 /* Interface.storyboard */; };
+		72C35CBE1B2CC24500E42913 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72C35CBD1B2CC24500E42913 /* Images.xcassets */; };
+		72C35CC11B2CC24500E42913 /* Rock Paper Scissors WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 72C35CA41B2CC24500E42913 /* Rock Paper Scissors WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		72C35CCA1B2CC30500E42913 /* EA_Games_logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 72C35CC91B2CC30500E42913 /* EA_Games_logo.jpg */; };
+		72C35CCB1B2CC30500E42913 /* EA_Games_logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 72C35CC91B2CC30500E42913 /* EA_Games_logo.jpg */; };
+		72C35CCC1B2CC30500E42913 /* EA_Games_logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 72C35CC91B2CC30500E42913 /* EA_Games_logo.jpg */; };
+		72C35CCD1B2CC30500E42913 /* EA_Games_logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 72C35CC91B2CC30500E42913 /* EA_Games_logo.jpg */; };
+		72C35CCF1B2CC37600E42913 /* earts.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C35CCE1B2CC37600E42913 /* earts.png */; };
+		72C35CD01B2CC37600E42913 /* earts.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C35CCE1B2CC37600E42913 /* earts.png */; };
+		72C35CD11B2CC37600E42913 /* earts.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C35CCE1B2CC37600E42913 /* earts.png */; };
+		72C35CD21B2CC37600E42913 /* earts.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C35CCE1B2CC37600E42913 /* earts.png */; };
+		72C35CD41B2CC68E00E42913 /* rock paper scissors.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C35CD31B2CC68E00E42913 /* rock paper scissors.png */; };
+		72C35CD51B2CC68E00E42913 /* rock paper scissors.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C35CD31B2CC68E00E42913 /* rock paper scissors.png */; };
+		72C35CD61B2CC68E00E42913 /* rock paper scissors.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C35CD31B2CC68E00E42913 /* rock paper scissors.png */; };
+		72C35CD71B2CC68E00E42913 /* rock paper scissors.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C35CD31B2CC68E00E42913 /* rock paper scissors.png */; };
+		72C35CDB1B2CC73C00E42913 /* Paper.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C35CD81B2CC73C00E42913 /* Paper.png */; };
+		72C35CDC1B2CC73C00E42913 /* Paper.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C35CD81B2CC73C00E42913 /* Paper.png */; };
+		72C35CDD1B2CC73C00E42913 /* Paper.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C35CD81B2CC73C00E42913 /* Paper.png */; };
+		72C35CDE1B2CC73C00E42913 /* Paper.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C35CD81B2CC73C00E42913 /* Paper.png */; };
+		72C35CDF1B2CC73C00E42913 /* Rock.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C35CD91B2CC73C00E42913 /* Rock.png */; };
+		72C35CE01B2CC73C00E42913 /* Rock.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C35CD91B2CC73C00E42913 /* Rock.png */; };
+		72C35CE11B2CC73C00E42913 /* Rock.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C35CD91B2CC73C00E42913 /* Rock.png */; };
+		72C35CE21B2CC73C00E42913 /* Rock.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C35CD91B2CC73C00E42913 /* Rock.png */; };
+		72C35CE31B2CC73C00E42913 /* Scissors.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C35CDA1B2CC73C00E42913 /* Scissors.png */; };
+		72C35CE41B2CC73C00E42913 /* Scissors.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C35CDA1B2CC73C00E42913 /* Scissors.png */; };
+		72C35CE51B2CC73C00E42913 /* Scissors.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C35CDA1B2CC73C00E42913 /* Scissors.png */; };
+		72C35CE61B2CC73C00E42913 /* Scissors.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C35CDA1B2CC73C00E42913 /* Scissors.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +55,35 @@
 			remoteGlobalIDString = 72C35C7A1B2CC23400E42913;
 			remoteInfo = "Rock Paper Scissors";
 		};
+		72C35CB51B2CC24500E42913 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72C35C731B2CC23400E42913 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72C35CB21B2CC24500E42913;
+			remoteInfo = "Rock Paper Scissors WatchKit App";
+		};
+		72C35CBF1B2CC24500E42913 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72C35C731B2CC23400E42913 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72C35CA31B2CC24500E42913;
+			remoteInfo = "Rock Paper Scissors WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		72C35CC81B2CC24500E42913 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				72C35CC11B2CC24500E42913 /* Rock Paper Scissors WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		72C35C7B1B2CC23400E42913 /* Rock Paper Scissors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rock Paper Scissors.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +96,23 @@
 		72C35C901B2CC23400E42913 /* Rock Paper ScissorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rock Paper ScissorsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		72C35C951B2CC23400E42913 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72C35C961B2CC23400E42913 /* Rock_Paper_ScissorsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rock_Paper_ScissorsTests.swift; sourceTree = "<group>"; };
+		72C35CA41B2CC24500E42913 /* Rock Paper Scissors WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Rock Paper Scissors WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72C35CA71B2CC24500E42913 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72C35CA81B2CC24500E42913 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		72C35CA91B2CC24500E42913 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		72C35CAB1B2CC24500E42913 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		72C35CAD1B2CC24500E42913 /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
+		72C35CAF1B2CC24500E42913 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		72C35CB31B2CC24500E42913 /* Rock Paper Scissors WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rock Paper Scissors WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72C35CB91B2CC24500E42913 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72C35CBB1B2CC24500E42913 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		72C35CBD1B2CC24500E42913 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		72C35CC91B2CC30500E42913 /* EA_Games_logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = EA_Games_logo.jpg; path = ../../../../Desktop/EA_Games_logo.jpg; sourceTree = "<group>"; };
+		72C35CCE1B2CC37600E42913 /* earts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = earts.png; path = ../../../../Desktop/earts.png; sourceTree = "<group>"; };
+		72C35CD31B2CC68E00E42913 /* rock paper scissors.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "rock paper scissors.png"; path = "../../../../Desktop/rock paper scissors.png"; sourceTree = "<group>"; };
+		72C35CD81B2CC73C00E42913 /* Paper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Paper.png; path = ../../../../Desktop/Paper.png; sourceTree = "<group>"; };
+		72C35CD91B2CC73C00E42913 /* Rock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Rock.png; path = ../../../../Desktop/Rock.png; sourceTree = "<group>"; };
+		72C35CDA1B2CC73C00E42913 /* Scissors.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Scissors.png; path = ../../../../Desktop/Scissors.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +130,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		72C35CA11B2CC24500E42913 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -61,6 +145,8 @@
 			children = (
 				72C35C7D1B2CC23400E42913 /* Rock Paper Scissors */,
 				72C35C931B2CC23400E42913 /* Rock Paper ScissorsTests */,
+				72C35CA51B2CC24500E42913 /* Rock Paper Scissors WatchKit Extension */,
+				72C35CB71B2CC24500E42913 /* Rock Paper Scissors WatchKit App */,
 				72C35C7C1B2CC23400E42913 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +156,8 @@
 			children = (
 				72C35C7B1B2CC23400E42913 /* Rock Paper Scissors.app */,
 				72C35C901B2CC23400E42913 /* Rock Paper ScissorsTests.xctest */,
+				72C35CA41B2CC24500E42913 /* Rock Paper Scissors WatchKit Extension.appex */,
+				72C35CB31B2CC24500E42913 /* Rock Paper Scissors WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +200,51 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		72C35CA51B2CC24500E42913 /* Rock Paper Scissors WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				72C35CA91B2CC24500E42913 /* InterfaceController.swift */,
+				72C35CAB1B2CC24500E42913 /* NotificationController.swift */,
+				72C35CAD1B2CC24500E42913 /* GlanceController.swift */,
+				72C35CAF1B2CC24500E42913 /* Images.xcassets */,
+				72C35CA61B2CC24500E42913 /* Supporting Files */,
+			);
+			path = "Rock Paper Scissors WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		72C35CA61B2CC24500E42913 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72C35CA71B2CC24500E42913 /* Info.plist */,
+				72C35CA81B2CC24500E42913 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		72C35CB71B2CC24500E42913 /* Rock Paper Scissors WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				72C35CD81B2CC73C00E42913 /* Paper.png */,
+				72C35CD91B2CC73C00E42913 /* Rock.png */,
+				72C35CDA1B2CC73C00E42913 /* Scissors.png */,
+				72C35CBA1B2CC24500E42913 /* Interface.storyboard */,
+				72C35CD31B2CC68E00E42913 /* rock paper scissors.png */,
+				72C35CBD1B2CC24500E42913 /* Images.xcassets */,
+				72C35CCE1B2CC37600E42913 /* earts.png */,
+				72C35CC91B2CC30500E42913 /* EA_Games_logo.jpg */,
+				72C35CB81B2CC24500E42913 /* Supporting Files */,
+			);
+			path = "Rock Paper Scissors WatchKit App";
+			sourceTree = "<group>";
+		};
+		72C35CB81B2CC24500E42913 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72C35CB91B2CC24500E42913 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +255,12 @@
 				72C35C771B2CC23400E42913 /* Sources */,
 				72C35C781B2CC23400E42913 /* Frameworks */,
 				72C35C791B2CC23400E42913 /* Resources */,
+				72C35CC81B2CC24500E42913 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				72C35CC01B2CC24500E42913 /* PBXTargetDependency */,
 			);
 			name = "Rock Paper Scissors";
 			productName = "Rock Paper Scissors";
@@ -150,6 +285,39 @@
 			productReference = 72C35C901B2CC23400E42913 /* Rock Paper ScissorsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		72C35CA31B2CC24500E42913 /* Rock Paper Scissors WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72C35CC51B2CC24500E42913 /* Build configuration list for PBXNativeTarget "Rock Paper Scissors WatchKit Extension" */;
+			buildPhases = (
+				72C35CA01B2CC24500E42913 /* Sources */,
+				72C35CA11B2CC24500E42913 /* Frameworks */,
+				72C35CA21B2CC24500E42913 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72C35CB61B2CC24500E42913 /* PBXTargetDependency */,
+			);
+			name = "Rock Paper Scissors WatchKit Extension";
+			productName = "Rock Paper Scissors WatchKit Extension";
+			productReference = 72C35CA41B2CC24500E42913 /* Rock Paper Scissors WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		72C35CB21B2CC24500E42913 /* Rock Paper Scissors WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72C35CC21B2CC24500E42913 /* Build configuration list for PBXNativeTarget "Rock Paper Scissors WatchKit App" */;
+			buildPhases = (
+				72C35CB11B2CC24500E42913 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rock Paper Scissors WatchKit App";
+			productName = "Rock Paper Scissors WatchKit App";
+			productReference = 72C35CB31B2CC24500E42913 /* Rock Paper Scissors WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,6 +333,12 @@
 					72C35C8F1B2CC23400E42913 = {
 						CreatedOnToolsVersion = 6.3.2;
 						TestTargetID = 72C35C7A1B2CC23400E42913;
+					};
+					72C35CA31B2CC24500E42913 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					72C35CB21B2CC24500E42913 = {
+						CreatedOnToolsVersion = 6.3.2;
 					};
 				};
 			};
@@ -183,6 +357,8 @@
 			targets = (
 				72C35C7A1B2CC23400E42913 /* Rock Paper Scissors */,
 				72C35C8F1B2CC23400E42913 /* Rock Paper ScissorsTests */,
+				72C35CA31B2CC24500E42913 /* Rock Paper Scissors WatchKit Extension */,
+				72C35CB21B2CC24500E42913 /* Rock Paper Scissors WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -194,7 +370,13 @@
 			files = (
 				72C35C861B2CC23400E42913 /* Main.storyboard in Resources */,
 				72C35C8B1B2CC23400E42913 /* LaunchScreen.xib in Resources */,
+				72C35CDF1B2CC73C00E42913 /* Rock.png in Resources */,
+				72C35CD41B2CC68E00E42913 /* rock paper scissors.png in Resources */,
+				72C35CE31B2CC73C00E42913 /* Scissors.png in Resources */,
+				72C35CCA1B2CC30500E42913 /* EA_Games_logo.jpg in Resources */,
 				72C35C881B2CC23400E42913 /* Images.xcassets in Resources */,
+				72C35CDB1B2CC73C00E42913 /* Paper.png in Resources */,
+				72C35CCF1B2CC37600E42913 /* earts.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +384,42 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72C35CDC1B2CC73C00E42913 /* Paper.png in Resources */,
+				72C35CCB1B2CC30500E42913 /* EA_Games_logo.jpg in Resources */,
+				72C35CE01B2CC73C00E42913 /* Rock.png in Resources */,
+				72C35CD01B2CC37600E42913 /* earts.png in Resources */,
+				72C35CE41B2CC73C00E42913 /* Scissors.png in Resources */,
+				72C35CD51B2CC68E00E42913 /* rock paper scissors.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72C35CA21B2CC24500E42913 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72C35CE51B2CC73C00E42913 /* Scissors.png in Resources */,
+				72C35CE11B2CC73C00E42913 /* Rock.png in Resources */,
+				72C35CDD1B2CC73C00E42913 /* Paper.png in Resources */,
+				72C35CCC1B2CC30500E42913 /* EA_Games_logo.jpg in Resources */,
+				72C35CB01B2CC24500E42913 /* Images.xcassets in Resources */,
+				72C35CB41B2CC24500E42913 /* Rock Paper Scissors WatchKit App.app in Resources */,
+				72C35CD11B2CC37600E42913 /* earts.png in Resources */,
+				72C35CD61B2CC68E00E42913 /* rock paper scissors.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72C35CB11B2CC24500E42913 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72C35CE61B2CC73C00E42913 /* Scissors.png in Resources */,
+				72C35CE21B2CC73C00E42913 /* Rock.png in Resources */,
+				72C35CDE1B2CC73C00E42913 /* Paper.png in Resources */,
+				72C35CCD1B2CC30500E42913 /* EA_Games_logo.jpg in Resources */,
+				72C35CBC1B2CC24500E42913 /* Interface.storyboard in Resources */,
+				72C35CBE1B2CC24500E42913 /* Images.xcassets in Resources */,
+				72C35CD21B2CC37600E42913 /* earts.png in Resources */,
+				72C35CD71B2CC68E00E42913 /* rock paper scissors.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +443,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		72C35CA01B2CC24500E42913 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72C35CAC1B2CC24500E42913 /* NotificationController.swift in Sources */,
+				72C35CAA1B2CC24500E42913 /* InterfaceController.swift in Sources */,
+				72C35CAE1B2CC24500E42913 /* GlanceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -232,6 +460,16 @@
 			isa = PBXTargetDependency;
 			target = 72C35C7A1B2CC23400E42913 /* Rock Paper Scissors */;
 			targetProxy = 72C35C911B2CC23400E42913 /* PBXContainerItemProxy */;
+		};
+		72C35CB61B2CC24500E42913 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72C35CB21B2CC24500E42913 /* Rock Paper Scissors WatchKit App */;
+			targetProxy = 72C35CB51B2CC24500E42913 /* PBXContainerItemProxy */;
+		};
+		72C35CC01B2CC24500E42913 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72C35CA31B2CC24500E42913 /* Rock Paper Scissors WatchKit Extension */;
+			targetProxy = 72C35CBF1B2CC24500E42913 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -250,6 +488,14 @@
 				72C35C8A1B2CC23400E42913 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		72C35CBA1B2CC24500E42913 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72C35CBB1B2CC24500E42913 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -392,6 +638,62 @@
 			};
 			name = Release;
 		};
+		72C35CC31B2CC24500E42913 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = Rock_Paper_Scissors_WatchKit_Extension;
+				INFOPLIST_FILE = "Rock Paper Scissors WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		72C35CC41B2CC24500E42913 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = Rock_Paper_Scissors_WatchKit_Extension;
+				INFOPLIST_FILE = "Rock Paper Scissors WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		72C35CC61B2CC24500E42913 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Rock Paper Scissors WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		72C35CC71B2CC24500E42913 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Rock Paper Scissors WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -417,6 +719,22 @@
 			buildConfigurations = (
 				72C35C9E1B2CC23400E42913 /* Debug */,
 				72C35C9F1B2CC23400E42913 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		72C35CC21B2CC24500E42913 /* Build configuration list for PBXNativeTarget "Rock Paper Scissors WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72C35CC31B2CC24500E42913 /* Debug */,
+				72C35CC41B2CC24500E42913 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		72C35CC51B2CC24500E42913 /* Build configuration list for PBXNativeTarget "Rock Paper Scissors WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72C35CC61B2CC24500E42913 /* Debug */,
+				72C35CC71B2CC24500E42913 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

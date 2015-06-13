@@ -4,6 +4,21 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Glance - Rock Paper Scissors WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>Notification - Rock Paper Scissors WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Rock Paper Scissors WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>Rock Paper Scissors.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +33,11 @@
 			<true/>
 		</dict>
 		<key>72C35C8F1B2CC23400E42913</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>72C35CB21B2CC24500E42913</key>
 		<dict>
 			<key>primary</key>
 			<true/>
